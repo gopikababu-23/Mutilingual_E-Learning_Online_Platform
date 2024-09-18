@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ted Talks</title>
+
+    <link rel="stylesheet" href="tedtalk.css">
+
+    <link rel="icon" href="img/title-ted.png">
+</head>
+
+<body>
+    <h3 class="heading">video <span>gallery</span></h3>
+    <div class="script-element">
+        <div id="google_translate_element"></div>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: 'en' },
+                    'google_translate_element'
+                );
+            }
+        </script>
+    </div>
+
+    <div class="container">
+        <div class="main-video">
+            <div class="video">
+                <video src="video/ted1.mp4" controls></video>
+                <div class="title-button">
+                    <h3 class="title">01. Video title</h3>
+                </div>
+            </div>
+        </div>
+        <div class="translate">
+            <button><b><a href="video/concatinate (1).mp4">Translate to Tamil</a></b></button>
+            <button><b><a href="video/concatinate (1).mp4">Translate to Hindi</a></b></button>
+        </div>
+        
+    </div>
+
+    
+</body>
+
+</html>

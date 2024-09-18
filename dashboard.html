@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EduNet Online Education</title>
+    <!--for slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!--for icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--custom-->
+    <link rel="stylesheet" href="dashboard.css">
+    <!--title icon-->
+    <link rel="icon" href="img/title.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo">edunet.</a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#course">Course</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+
+            <div id="google_translate_element"></div>
+            <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement(
+                        { pageLanguage: 'en' },
+                        'google_translate_element'
+                    );
+                }
+            </script>
+
+            <div id="menu-btn" class="fas fa-bars">
+
+            </div>
+        </section>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Online <span>Education</span></h3>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+            <div class="image">
+                <img src="img/picture2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="count">
+        <div class="box-container">
+            <div class="box">
+                <i class="bi bi-mortarboard-fill"></i>
+                <div class="content">
+                    <h3>150+</h3>
+                    <p>courses</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bi bi-person-check-fill"></i>
+                <div class="content">
+                    <h3>1300+</h3>
+                    <p>students</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bi bi-person-workspace"></i>
+                <div class="content">
+                    <h3>80+</h3>
+                    <p>teachers</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bi bi-emoji-smile"></i>
+                <div class="content">
+                    <h3>100%</h3>
+                    <p>satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="img/picture5.png" alt="">
+            </div>
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>We offer a wide range of features and benefits that help students and enthusiasts from various
+                    backgrounds without any language barrier, thus improving learner engagement at the convenience of
+                    their preferred language, and saving time and money.</p>
+                <a href="#contact" class="btn">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="course" id="course">
+        <h1 class="heading">our<span> courses</span></h1>
+        <div class="swiper course-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <a href="dbms.html">
+                        <img src="img/DBMS.png" alt="">
+                        <h3>database management systems</h3>
+                        <p>learn in detail about the concepts of <span>dbms</span> along with its queries</p>
+                    </a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <a href="TedTalk/landingpg.html">
+                        <img src="img/TedTalk.png" alt="">
+                        <h3>ted talk</h3>
+                        <p>Listen to the various <span>ted talk</span> videos</p>
+                    </a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <a href="c_program.html">
+                        <img src="img/C.png" alt="">
+                        <h3>C programming language</h3>
+                        <p>Get to know about the <span>c</span> program and </p>
+                    </a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <a href="java_program.html">
+                        <img src="img/Java.png" alt="">
+                        <h3>Java program</h3>
+                        <p>Explore the <span>oops</span> concepts in an easier way </p>
+                    </a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <a href="communication.html">
+                        <img src="img/Communication.png" alt="">
+                        <h3>Communication Skills</h3>
+                        <p>improve your <span>communication skills</span> to have an effective communication</p>
+                    </a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <a href="presentation.html">
+                        <img src="img/presentation.png" alt="">
+                        <h3>presentation skills</h3>
+                        <p>get into the lectures to find the best way to set aside all your fear in a
+                            <span>presentation</span>
+                        </p>
+                    </a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <a href="python.html">
+                        <img src="img/python.png" alt="">
+                        <h3>Python</h3>
+                        <p>learn the easier version of programming <span>python</span></p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="/img/contact.png" alt="" srcset="">
+            </div>
+
+            <form action="" method="post">
+                <span>your name</span>
+                <input type="text" required placeholder="Enter your full name" maxlength="50" name="name" class="box">
+                <span>your email</span>
+                <input type="email" required placeholder="Enter your email address" maxlength="50" name="email"
+                    class="box">
+                <span>your number</span>
+                <input type="number" required placeholder="Enter your number" max="9999999999" min="0" name="number"
+                    class="box" onkeypress="if(this.value.length==10)return false;">
+                <span>your feedback</span><br><br>
+                <textarea class="form-control" id="textArea" rows="5" cols="50"
+                    placeholder="Type your feedback here"></textarea>
+
+
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <section>
+            <div class="share">
+                <a href="http://www.fb.com"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/login?lang=en"><i class="bi bi-twitter"></i></a>
+                <a href="https://in.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

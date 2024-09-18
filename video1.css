@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+    --green:#00e77f;
+    --white:#fff;
+    --light-white:#aaa;
+    --black:#3d3d3d;
+    --light-bg:#4b4b4b;
+}
+
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+*::selection{
+    background-color: var(--white);
+    color: var(--black);
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--green);
+    border-radius: 5rem;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.heading{
+    color: var(--white);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.heading span{
+    color: var(--green);
+}
+
+.script-element{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    padding-right: 5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5px;
+}
+
+.container .main-video{
+    background-color: var(--light-bg);
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5px;
+}
+
+.container .main-video video{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .translate{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    background-color: var(--green);
+    color: var(--light-bg);
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+

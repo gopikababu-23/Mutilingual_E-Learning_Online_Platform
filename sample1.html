@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+
+    <link rel="stylesheet" href="tedtalk.css">
+
+    <link rel="icon" href="img/title-ted.png">
+</head>
+
+<body>
+    <h3 class="heading">video <span>gallery</span></h3>
+    <div class="script-element">
+        <div id="google_translate_element"></div>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: 'en' },
+                    'google_translate_element'
+                );
+            }
+        </script>
+    </div>
+
+    <div class="container">
+
+        <div class="video-list">
+            <div class="vid active">
+                <a href="video1.html">
+                    <video src="video/ted1.mp4" muted></video>
+                    <h3 class="title">01. Video title</h3>
+                </a>
+            </div>
+            <div class="vid">
+                <video src="video/ted2.mp4" muted></video>
+                <h3 class="title">02. Video title</h3>
+            </div>
+            <div class="vid">
+                <video src="video/concatinate (1).mp4" muted></video>
+                <h3 class="title">03. Video title</h3>
+            </div>
+            <div class="vid">
+                <video src="video/ted4.mp4" muted></video>
+                <h3 class="title">04. Video title</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
